@@ -6,7 +6,7 @@ class Dec2Hex
     public static int Arg1;
     public static void main(String args[])
     {
-        if (args.length > 0) 
+        if (args.length > 0 && args! <0) 
         {
             try 
             {
